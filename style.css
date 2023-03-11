@@ -1,0 +1,457 @@
+/*======================
+Common CSS
+=========================*/
+body{
+font-family: 'Open Sans', sans-serif;
+color: #333;
+font-size: 15px;
+line-height: 1.5em;
+margin: 0; 
+padding: 0;
+}
+p{
+  font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 700;
+  line-height: 1.5em;
+  margin: 0 0 15px;
+}
+.container{
+width: 1170px;
+margin: 0 auto;
+}
+a{
+transition: .5s;
+text-decoration: none;
+}
+
+
+
+
+.slicknav_menu{
+  display: none; 
+}
+
+#scrollUp{
+  text-indent: -99999px;
+  background-image: url(../img/top_to_bottom.png);
+  width: 32px;
+  height: 32px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  
+}
+
+/*======================
+Top header CSS
+========================*/
+.top_header_area{
+  background: #a88c95;
+  padding: 18px 0;
+ clear: both;
+}
+.top_header_area .inner_header{
+  overflow: hidden;
+}
+.top_header_area .social_area{
+width: 50%;
+float: left;
+}
+.top_header_area .social_area ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+
+}
+.top_header_area .social_area ul li{
+  display: inline-block;
+  margin-right: 5px;
+ 
+}
+.top_header_area .social_area a{ 
+  background: #d2d2d2;
+  color: #6a3144 ;
+  border-radius: 50%;
+  width: 10px;
+  height: 45px;
+  display: block;
+  text-align: center;
+ 
+  
+}
+
+.top_header_area .social_area ul li a:hover{
+  background: #6a3144;
+  color: #fff;
+  transition: .5s;
+}
+.top_header_area .search_area{
+width: 50%;
+float: right;
+}
+.top_header_area .search_area form{float: right; width: 300px;}
+.top_header_area .search_area input[type="text"]{
+  background: #fff ;
+  border: 0;
+  border-radius: 5px 0px 0px 5px;
+  padding: 10px;
+  font-weight: normal;
+  font-size: 14px;
+}
+.top_header_area .search_area input[type="submit"]{
+  background: #97455f;
+  color: #fff;
+  border-radius: 0px 5px 5px 0px;
+  border: 0;
+  padding: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: -5px;
+
+}
+.top_header_area .search_area input[type="submit"]:hover{
+  background: #6a3144;
+  color: #fff;
+  transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*======================
+Logo CSS
+========================*/
+
+.logo_area{
+  width: 220px;
+  max-width: 100%;
+  text-align: center;
+  margin: 15px auto;
+}
+
+/*=====================
+Main menu Css
+========================*/
+#header_area{
+  width: 100%;
+  background: #000;
+ }
+ header img{
+   width: 150px;
+   height: 40px;
+   padding: 6px;
+ }
+ #header_area .container{
+   position: relative;
+ 
+ }
+ header{ 
+   position: sticky;
+   top: 0;
+   width: 100%;
+   height: 50px;
+   background: #000;
+   padding: 0 100px;
+   box-sizing: border-box;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ ul{
+   display: flex;
+   margin: 0;
+   padding: 0;
+   height: 50px;
+ }
+ ul li{
+   list-style: none;
+   line-height: 50px;
+  
+ }
+ ul li a{
+   color: #fff;
+   text-decoration: none;
+   padding: 0 15px;
+  
+ }
+ ul li a:hover{
+   color: red;
+   text-decoration: none;
+ 
+ }
+ ul li.active{
+   background: #2196f3;
+   color: #fff;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+/*===========================
+Slider area CSS
+=============================*/
+.slider_area{
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+
+}
+.slider_area .bx-wrapper{
+  margin: 0;
+  border: 0;
+}
+.slider_area .bx-controls{
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  height: 10px;
+}
+.slider_area .bx-pager{
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  height: 10px;
+}
+.slider_area .bx-wrapper .bx-pager.bx-default-pager a{
+  border: 5px solid #6a3144;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.slider_area .bx-wrapper .bx-pager.bx-default-pager a.active{
+  background: #97455f;
+}
+
+.slider_area .slider_images{
+
+}
+.slider_area .slider_images img{
+  display: block;
+  margin: 0;
+  width: 100%;
+  height: 500px;
+}
+
+/*====================
+Welcome CSS
+========================*/
+.welcome_area{
+  background: #fff;
+  width: 100%;
+  overflow: hidden;
+  padding: 50px 0;
+}
+.welcome_area .innner_welcome{
+  overflow: hidden;
+}
+.welcome_area .left_welcome{
+  width: 46%;
+  float: left;
+  padding: 0 2%;
+}
+.welcome_area .left_welcome h3{font-weight: 400; font-size: 30px;}
+.welcome_area .left_welcome p{font-size: 15px;}
+.welcome_area .left_welcome a{
+  background: #6a3144;
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.welcome_area .left_welcome a:hover{
+  background: #97455f;
+}
+.welcome_area .right_welcome{
+  width: 50%;
+  float: right;
+}
+.welcome_area .right_welcome img{}
+
+/*=======================
+Service area CSS
+============================*/
+
+.service_area{
+  width: 100%;
+  padding: 50px 0;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+.service_area .inner_service{
+  overflow: hidden;
+}
+.service_area .inner_service h2.title{
+  color: #6a3144;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+}
+.service_area .inner_service p.sub_title{ 
+  color: #333 ;
+  font-size: 18px;
+  text-align: center;
+  
+}
+.service_area .main_service{
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.service_area .child_service{
+  width: 225px;
+  padding: 130px 60px 80px 105px;
+  float: left;
+  position: relative;
+}
+.service_area .child_service:hover{
+  background: #fff;
+  transition: 0.9s;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px 10px #ddd;
+}
+.service_area .child_service h3{
+  color: #523827;
+  font-size: 100px;
+  font-weight: 700 ;
+  font-family: 'Oswald',sans-serif;
+  opacity: 0.1;
+  position: absolute;
+  left: 60px;
+  top: 60px;
+
+}
+.service_area .child_service h4{
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-left: 22px;
+}
+.service_area .child_service h4 a{
+  color: #523827;
+  
+}
+.service_area .child_service h4:hover a{}
+.service_area .child_service p{
+  color: #000;
+  font-size: 15px;
+  opacity: 50%;
+
+}
+
+/*=============================
+Contact rea CSS
+===============================*/
+.contact_area{
+  width: 100%;
+  overflow: hidden;
+  padding: 50px 0;
+  background: url(img/img_05.jpg);
+  background-size: cover;
+  background: #101f38;
+}
+.contact_area .inner_contact{
+  overflow: hidden;
+  width: 900px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.contact_area .inner_contact h2.title{
+  color: #fff;
+  text-align: center;
+  font-weight: 400 ;
+  font-family: 'Oswald',sans-serif;
+  font-size: 36px;
+
+}
+.contact_area .main_contact_form{
+width: 100%;
+overflow: hidden;
+margin-top: 20px;
+text-align: center;
+
+}
+.contact_area .main_contact_form input{
+  background: #fff;
+  border: 0;
+  padding: 15px 3%;
+  float: left;
+  margin: 0 1% 2%;
+  border-radius: 5px;
+  width: 42%;
+ 
+}
+.contact_area .main_contact_form textarea{
+  background: #fff;
+  border: 0;
+  padding: 15px 3%;
+  border-radius: 5px;
+  width: 92%;
+  margin: 0 1% 2%;
+  min-height: 100px;
+}
+.contact_area .main_contact_form input[type="submit"]{
+  
+  background: #6a3144;
+  color: #fff;
+  font-size: 21px;
+  font-weight: normal;
+  border-radius: 25px;
+  width: 250px;
+  margin: 0 auto;
+  cursor: pointer;
+  float: none;
+
+}
+.contact_area .main_contact_form input[type="submit"]:hover{
+transition: .5s;
+background: #97455f;
+}
+
+/*=======================
+Footer area CSS
+===========================*/
+.footer_area{
+  width: 100%;
+  background: #fff;
+  padding: 20px 0;
+  overflow: hidden;
+
+}
+.footer_area .inner_footer{overflow: hidden;}
+.footer_area .footer_logo{
+  text-align: center;
+  width: 420px;
+  max-width: 80%;
+  margin: 0 auto 20px;
+  
+}
+.footer_area .copyright_area{
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+ 
+}
+.footer_area .copyright_area p{
+color: #6a3144;
+font-size: 14px;
+margin-bottom: 0;
+}

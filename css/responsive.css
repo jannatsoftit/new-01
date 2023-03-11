@@ -1,0 +1,97 @@
+/*
+Tablet layout
+*/
+@media only screen and (min-width: 200px) and (max-width: 991px){
+
+  .container{
+    width: 98%;
+   }
+  
+
+    .slider_area .bx-wrapper .bx-pager.bx-default-pager a{
+      border: 3px solid #6a3144;
+      width: 20px;
+      height: 20px;
+      margin: 0 5px;
+    }
+    .welcome_area .left_welcome {
+      width: 80%;
+      float: left;
+      padding: 0 10%;
+    }
+    .welcome_area .right_welcome {
+        width: 100%;
+        padding: 30px 0;
+        float: right;
+    }
+    .welcome_area .right_welcome img{
+      width: 100%;
+      height: auto;
+    
+  }
+  .welcome_area{
+    padding: 10px 0;
+  }
+  .service_area .inner_service h2.title {
+   
+    font-size: 30px;
+  }
+
+  .service_area .inner_service p.sub_title {
+   
+    font-size: 15px;
+   
+  }
+
+}
+
+
+
+/*
+Mobile layout
+*/
+
+
+@media only screen and (min-width: 200px) and (max-width: 480px){
+
+  .top_header_area .social_area {
+    width: 100%;
+ 
+  }
+  .top_header_area .search_area {
+   display: none;
+  }
+  .top_header_area .social_area ul {
+   
+    text-align: center;
+  }
+  .top_header_area .search_area form {
+    display: none;
+  }
+
+  .slicknav_menu{
+    display: block;
+    background: #97455f;
+  }
+  .main_menu{
+   display: none;
+  }
+  .service_area .child_service{
+    padding: 90px 50px 40px 70px ;
+  }
+  .contact_area .main_contact_form input[type="submit"] {
+  font-size: 14px;
+  }
+  .footer_area .footer_logo {
+    width: 150px;
+  }
+  .footer_area .footer_logo img{
+    width: 100%;
+  }
+  .bx-wrapper .bx-pager {
+    bottom: -25px;
+  }
+
+
+
+}
